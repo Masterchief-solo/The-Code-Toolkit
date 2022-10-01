@@ -5,10 +5,15 @@ import tornado.ioloop
 class basicRequestHandler(tornado.web.RequestHandler):
     def get(self):
         self.write("Hello, World! This is a test")
+        
+ class listRequestHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.render("index.html")
 
 if __name__ == "__main__":
     app = tornado.web.Application ( [
-        (r"/", basicRequestHandler)
+        (r"/", basicRequestHandler),
+        (r"/shrek", listRequestHandler)
     ])
     port = 8882
     app.listen(port)
