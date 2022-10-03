@@ -11,3 +11,13 @@ dfgolf = data.frame(vplayer, vr1, vr2, vr3, vr4, vtot)
 
 # print the data frame
 dfgolf
+
+# select first round score player 2
+dfgolf[2,2]
+
+# select columns vplayer, vtot where vtot>mean(vtot)
+subset(dfgolf, select = c(vplayer,vtot), vtot > mean(vtot))
+
+# sort data by vtot in ascending order
+dfgolfsort <- dfgolf[order(dfgolf$vtot),]
+dfgolfsort
