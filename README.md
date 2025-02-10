@@ -46,8 +46,8 @@ Each script has its own README with specific usage instructions. They're designe
 
 ## 🎉 Acknowledgments
 
-- Coffee ☕ - The fuel that powers IT
-- Late night maintenance windows 🌙
-- Stack Overflow - Saving IT pros since 2008
+- Coffeine ☕ - I'm addicted and I won't quit now
+- Late night rabbit holes 🌙
+- Stack Overflow - copying and debugging your code, thanks
 - My homelab - Where all scripts are battle-tested
-- The IT community - For sharing knowledge and war stories
+- The IT community - For sharing knowledge and resources
