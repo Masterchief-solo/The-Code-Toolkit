@@ -29,7 +29,7 @@ What you'll (maybe) find:
 
 ## 📁 Script Categories
 
-Everything's organized into practical directories:
+Everything's organized into directories:
 ```
 📁 system_admin/
 📁 monitoring/
