@@ -41,12 +41,12 @@ Everything's organized into practical directories:
 
 ## 🎮 Usage
 
-Each script has its own README with specific usage instructions. They're designed to be straightforward - because who has time for complicated tools when the printer is on fire?
+Each script has its own README with specific usage instructions. I also hope to provide adequate comments detailing code functions and processes, but that isn't always promised.
 
 
 ## 🎉 Acknowledgments
 
-- Coffeine ☕ - I'm addicted and I won't quit now
+- Caffeine ☕ - I'm addicted and I won't quit now
 - Late night rabbit holes 🌙
 - Stack Overflow - copying and debugging your code, thanks
 - My homelab - Where all scripts are battle-tested
