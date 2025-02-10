@@ -49,5 +49,6 @@ Each script has its own README with specific usage instructions. I also hope to 
 - Caffeine ☕ - I'm addicted and I won't quit now
 - Late night rabbit holes 🌙
 - Stack Overflow - copying and debugging your code, thanks
-- My homelab - Where all scripts are battle-tested
+- Reddit - visit for ze questions, stay for the laughs
+- My homelab - Where all scripts are tested and I break stuff
 - The IT community - For sharing knowledge and resources
