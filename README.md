@@ -24,7 +24,7 @@ What you'll (maybe) find:
 
 ### 🤖 Automation Scripts
 - User management automation
-- Software deployment helpers
+- Scheduling tasks
 - Routine maintenance tasks
 
 ## 📁 Script Categories
