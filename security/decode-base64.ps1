@@ -85,7 +85,7 @@ function Test-Base64 {
         [Convert]::FromBase64String($Content) | Out-Null
         Write-Verbose "Base64 validation successful"
         return $true
-    } 
+    }
     catch [FormatException] {
         Write-Error "Invalid Base64 format: $($_.Exception.Message)"
         return $false
@@ -96,7 +96,7 @@ function Test-Base64 {
     }
 }
 
-function Decode-Base64 {
+function ConvertFrom-Base64 {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory = $true)]
@@ -131,7 +131,6 @@ function Decode-Base64 {
 
 # Main execution block
 try {
-    # Acquire content based on the parameter set used
     Write-Verbose "Parameter set in use: $($PSCmdlet.ParameterSetName)"
     
     switch ($PSCmdlet.ParameterSetName) {
@@ -152,20 +151,20 @@ try {
     # Normalize content: Trim and remove all whitespace (helps if file input has line breaks)
     $content = $content.Trim() -replace '\s', ''
 
-    Write-Host "Validating Base64 content..." -ForegroundColor Yellow
+    Write-Information "Validating Base64 content..." -InformationAction Continue
     if (-not (Test-Base64 -Content $content)) {
         exit 1
     }
 
-    Write-Host "Base64 validation successful. Decoding..." -ForegroundColor Green
-    $decoded = Decode-Base64 -Content $content -Encoding $Encoding
+    Write-Information "Base64 validation successful. Decoding..." -InformationAction Continue
+    $decoded = ConvertFrom-Base64 -Content $content -Encoding $Encoding
 
     if ($null -ne $decoded) {
         if ($SaveToFile) {
             try {
                 if ($PSCmdlet.ShouldProcess($OutputPath, "Save decoded content")) {
                     $decoded | Out-File -FilePath $OutputPath -Encoding $Encoding -Force
-                    Write-Host "Decoded content saved to: $OutputPath" -ForegroundColor Green
+                    Write-Information "Decoded content saved to: $OutputPath" -InformationAction Continue
                 }
             }
             catch [System.IO.IOException] {
@@ -185,7 +184,7 @@ try {
             }
         }
         else {
-            Write-Host "Decoded content:" -ForegroundColor Green
+            Write-Information "Decoded content:" -InformationAction Continue
             Write-Output $decoded
         }
     }
