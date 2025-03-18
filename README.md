@@ -1,5 +1,5 @@
 # 🛠️ The Code Toolkit 🛠️ 
-### Your everyday, trusty scripts and commands for IT Tech shenanigans
+### Trusty scripts and commands for IT administration shenanigans
 
 
 ## 🎯 What's This All About?
