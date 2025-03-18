@@ -42,13 +42,3 @@ Everything's organized into directories:
 ## 🎮 Usage
 
 Each script has its own README with specific usage instructions. I also hope to provide adequate comments detailing code functions and processes, but that isn't always promised.
-
-
-## 🎉 Acknowledgments
-
-- Caffeine ☕ - I'm addicted and I won't quit now
-- Late night rabbit holes 🌙
-- Stack Overflow - copying and debugging your code, thanks
-- Reddit - come for ze questions, stay for the laughs
-- My homelab - Where all scripts are tested and I break stuff
-- The IT community - For sharing knowledge and resources
