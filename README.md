@@ -12,17 +12,17 @@ Think of it as that drawer of useful tools we all have - except it's full of scr
 
 What you'll (maybe) find:
 
-### 🖥️ System Administration
+### System Administration
 - Active Directory management 
 - Network diagnostics
 - Backup and recovery
 
-### 🔍 Monitoring & Maintenance
+### Monitoring & Maintenance
 - Resource usage trackers
 - Log parsing utilities
 - Health check scripts
 
-### 🤖 Automation Scripts
+### Automation Scripts
 - User management automation
 - Scheduling tasks
 - Routine maintenance tasks
