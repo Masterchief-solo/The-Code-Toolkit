@@ -33,7 +33,6 @@ Everything's organized into directories:
 ```
 📁 automation/
 📁 data_analysis/
-📁 monitoring/
 📁 network/
 📁 security/
 📁 system_admin/
