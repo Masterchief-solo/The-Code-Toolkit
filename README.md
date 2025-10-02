@@ -6,8 +6,6 @@
 
 If you're like me, you want to make things easier on the job. This repository is the result of hours of research and testing spent on everyday tasks that we IT folks deal with. Whether you're managing a small network, troubleshooting workstations, or just trying to make your tech life easier, you might find something useful here.
 
-Think of it as that drawer of useful tools we all have - except it's full of scripts instead of screwdrivers!
-
 ## Features
 
 What you'll (maybe) find:
