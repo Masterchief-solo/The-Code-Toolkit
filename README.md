@@ -2,13 +2,13 @@
 ### Trusty scripts and commands for IT administration shenanigans
 
 
-## 🎯 What's This All About?
+## What's This All About?
 
 If you're like me, you want to make things easier on the job. This repository is the result of hours of research and testing spent on everyday tasks that we IT folks deal with. Whether you're managing a small network, troubleshooting workstations, or just trying to make your tech life easier, you might find something useful here.
 
 Think of it as that drawer of useful tools we all have - except it's full of scripts instead of screwdrivers!
 
-## 🚀 Features
+## Features
 
 What you'll (maybe) find:
 
@@ -39,6 +39,6 @@ Everything's organized into directories:
 📁 data_analysis/
 ```
 
-## 🎮 Usage
+## Usage
 
 Each script has its own README with specific usage instructions. I also hope to provide adequate comments detailing code functions and processes, but that isn't always promised.
