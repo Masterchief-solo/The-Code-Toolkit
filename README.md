@@ -31,12 +31,13 @@ What you'll (maybe) find:
 
 Everything's organized into directories:
 ```
-📁 system_admin/
-📁 monitoring/
 📁 automation/
+📁 data_analysis/
+📁 monitoring/
 📁 network/
 📁 security/
-📁 data_analysis/
+📁 system_admin/
+📁 web/
 ```
 
 ## Usage
